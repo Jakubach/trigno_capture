@@ -1,0 +1,3 @@
+[submodule "src/pytrigno"]
+	path = src/pytrigno
+	url = https://github.com/Jakubach/pytrigno

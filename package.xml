@@ -4,8 +4,9 @@
   <version>0.0.0</version>
   <description>The trigno_capture package</description>
   <maintainer email="jakubach@gmail.com">Jakub</maintainer>
-  <license>PRIVATE</license>
+  <license>MIT</license>
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>rospy</build_depend>
   <exec_depend>rospy</exec_depend>
+  <exec_depend>python-numpy</exec_depend>
 </package>
