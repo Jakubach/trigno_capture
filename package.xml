@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>trigno_capture</name>
+  <version>0.0.0</version>
+  <description>The trigno_capture package</description>
+  <maintainer email="jakubach@gmail.com">Jakub</maintainer>
+  <license>PRIVATE</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <exec_depend>rospy</exec_depend>
+</package>

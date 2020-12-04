@@ -1,0 +1,4 @@
+<launch>
+    <node name="trigno_capture" pkg="trigno_capture" type="pytrigno_node.py" output="screen">
+    </node>
+</launch>
