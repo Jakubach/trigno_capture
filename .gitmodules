@@ -1,3 +1,6 @@
-[submodule "src/pytrigno"]
-	path = src/pytrigno
-	url = https://github.com/Jakubach/pytrigno
+[submodule "src/pytrignos"]
+	path = src/pytrignos
+	url = https://github.com/Jakubach/pytrignos
+[submodule "pytrignos"]
+	path = pytrignos
+	url = https://github.com/Jakubach/pytrignos
