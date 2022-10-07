@@ -6,7 +6,7 @@ from pytrignos.pytrignos import TrignoAdapter
 class TrignoCapture:
     def __init__(self):
         self.trigno_sensors = TrignoAdapter()
-        self.trigno_sensors.add_sensors(sensors_mode='ORIENTATION', sensors_numbers=(1,), sensors_labels=('ORIENTATION1',))
+        self.trigno_sensors.add_sensors(sensors_mode='ORIENTATION', sensors_ids=(1,), sensors_labels=('ORIENTATION1',), host='192.168.4.118')
     def start(self):
         self.trigno_sensors.start_acquisition()
     def stop(self):
